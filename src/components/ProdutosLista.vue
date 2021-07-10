@@ -30,6 +30,8 @@ export default {
   methods: {
     getProdutos() {
       api.get(this.url).then((r) => {
+        console.log(r);
+        this.produtosPorPagina = Number(r.headers["x-total-count"]);
         this.produtos = r.data;
       });
     },

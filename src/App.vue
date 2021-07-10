@@ -79,4 +79,23 @@ img {
   background: rgb(64, 133, 30);
   transform: scale(1.1);
 }
+
+input,
+textarea {
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(30, 60, 90, 0.1);
+  font-size: 1rem;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
+  border-color: rgba(18, 190, 41, 0.2);
+}
 </style>
